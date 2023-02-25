@@ -161,6 +161,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "F1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PrimerFormulario";
             this.Load += new System.EventHandler(this.F1_Load);
             this.ResumeLayout(false);

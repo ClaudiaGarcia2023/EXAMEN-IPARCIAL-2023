@@ -263,6 +263,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "F2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SegundoFormulario";
             this.Load += new System.EventHandler(this.F2_Load);
             this.ResumeLayout(false);

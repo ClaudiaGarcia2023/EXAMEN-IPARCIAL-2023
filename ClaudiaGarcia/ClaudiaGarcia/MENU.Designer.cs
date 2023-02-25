@@ -53,22 +53,28 @@
             // 
             // primerFormularioToolStripMenuItem
             // 
+            this.primerFormularioToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
+            this.primerFormularioToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.primerFormularioToolStripMenuItem.Name = "primerFormularioToolStripMenuItem";
-            this.primerFormularioToolStripMenuItem.Size = new System.Drawing.Size(167, 29);
+            this.primerFormularioToolStripMenuItem.Size = new System.Drawing.Size(181, 29);
             this.primerFormularioToolStripMenuItem.Text = "Primer formulario";
             this.primerFormularioToolStripMenuItem.Click += new System.EventHandler(this.primerFormularioToolStripMenuItem_Click);
             // 
             // segundoFToolStripMenuItem
             // 
+            this.segundoFToolStripMenuItem.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.segundoFToolStripMenuItem.Font = new System.Drawing.Font("MS Reference Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.segundoFToolStripMenuItem.Name = "segundoFToolStripMenuItem";
-            this.segundoFToolStripMenuItem.Size = new System.Drawing.Size(188, 29);
+            this.segundoFToolStripMenuItem.Size = new System.Drawing.Size(202, 29);
             this.segundoFToolStripMenuItem.Text = "Segundo formulario";
             this.segundoFToolStripMenuItem.Click += new System.EventHandler(this.segundoFToolStripMenuItem_Click);
             // 
             // tercerFormularioToolStripMenuItem
             // 
+            this.tercerFormularioToolStripMenuItem.BackColor = System.Drawing.SystemColors.Desktop;
+            this.tercerFormularioToolStripMenuItem.Font = new System.Drawing.Font("MS Reference Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tercerFormularioToolStripMenuItem.Name = "tercerFormularioToolStripMenuItem";
-            this.tercerFormularioToolStripMenuItem.Size = new System.Drawing.Size(161, 29);
+            this.tercerFormularioToolStripMenuItem.Size = new System.Drawing.Size(181, 29);
             this.tercerFormularioToolStripMenuItem.Text = "Tercer formulario";
             this.tercerFormularioToolStripMenuItem.Click += new System.EventHandler(this.tercerFormularioToolStripMenuItem_Click);
             // 
@@ -82,10 +88,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 114);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MENU";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
